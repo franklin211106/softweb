@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>RED DRAGON</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body, html { width: 10; height: 10%; font-family: Arial, sans-serif;background-image: url(https://e1.pxfuel.com/desktop-wallpaper/288/797/desktop-wallpaper-red-chinese-dragon-chinese-red-dragon.jpg);}
+    
+    .container {
+      height: 60%;
+      width: 100%;  
+      background-color: rgb(12, 12, 12);  
+      background-size: cover;  
+      background-position: center;   
+    }
+
+    .nav-bar {  
+      display: flex;  
+      align-items: center;  
+      justify-content: space-between;  
+      padding: 30px 80px;
+    }
+
+    .nav-bar .title {
+      color: red;
+      font-size: 50px;
+    }
+
+    .nav-bar p {
+      position: absolute;
+      margin-top: 120px;
+      margin-left: 50px;
+      color: #f0e5e5;
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .menu li {
+      list-style: none;
+      display: inline-block;
+    }
+
+    .menu li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 22px;
+      font-weight: 600;
+      margin-left: 25px;
+      transition: .4s ease;
+    }
+
+    .menu li a:hover {
+      color: rgb(253, 0, 13);
+      padding: 10px 20px;
+      border: 2px solid #fff;
+    }
+
+    .home {
+      padding: 70px;
+      text-align: center;
+    }
+
+    .title-1 {
+      font-size: 56px;
+      color: gold;
+      font-weight: 600;
+    }
+
+    .home p {
+      color: rgb(255, 255, 255);
+      font-size: 25px;
+      padding-top: 10px;
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .image-row img {
+      width: 800px;
+      height: 600px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .image-row img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>  
+<body>  
+  <div class="container"> 
+    <div class="nav-bar">  
+      <h1 class="title">RED DRAGON CHINESE RESTAURANT</h1> 
+      <p>Rich.Exquisite.Delightful.</p>  
+      <ul class="menu"> 
+        <li><a href="home.html">HOME</a></li>  
+        <li><a href="menu.html">MENU</a></li> 
+        <li><a href="admin.html">ADMIN</a></li>  
+        <li><a href="contact.html">CONTACT</a></li> 
+      </ul>  
+    </div>
+    <div class="home">
+      <h1 class="title-1">"A taste of tradition in every bite — where the flavors of China come alive."</h1>
+      <p>You're Invited to Feast at Red Dragon!
+
+Join us for bold flavors, warm vibes, and a side of fortune.
+
+From crispy spring rolls to sizzling stir-fries, Red Dragon Chinese Restaurant serves up the kind of delicious that makes chopsticks optional (but recommended).</p>
+      
+      <div class="image-row">
+        <img src="image1.jpg" alt="Restaurant interior">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

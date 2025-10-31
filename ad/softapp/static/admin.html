@@ -1,0 +1,167 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration</title>
+    <style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: white;
+}
+
+header {
+    background-color: gold;
+    color: #ff0000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #f80000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f4a261; 
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.member {
+    background-color: #090606;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #f4a261; 
+}
+
+.member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f2f2f2;
+}
+
+.member p {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #eae9e9;
+}
+
+footer {
+    background-color: #333;
+    color: #5b4f4f;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Administration Team</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administration.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Meet Our Team</h2>
+        <div class="team">
+            <div class="member">
+                <img src="ceo.jpg" alt="Member 1">
+                <h3>Ajith</h3>
+                <p>CEO</p>
+            </div>
+            <div class="member">
+                <img src="dong.jpg" alt="Member 2">
+                <h3>Dong Lee<h3>
+                <p>Marketing Manager</p>
+            </div>
+            <div class="member">
+                <img src="wick.jpg" alt="Member 3">
+                <h3>Johnwick<h3>
+                <p>Operations Manager</p>
+            </div>
+            <div class="member">
+                <img src="prof.jpg" alt="Member 4">
+                <h3>Sergio<h3>
+                <p>HR Manager</p>
+            </div>
+            <div class="member">
+                <img src="bale.jpg" alt="Member 5">
+                <h3>Christian Bale<h3>
+                <p>Executive Chef</p>
+            </div>
+            <div class="member">
+                <img src="surraa.webp" alt="Member 6">
+                <h3>Suraa<h3>
+                <p>Customer Service Manger</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
